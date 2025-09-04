@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Layout</title>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-areas: 
+            'img1 img2 img3 img4'
+            'img1 img2 img3 img4'
+            'img1 img6 img7 img4'
+            'img5 img6 img7 img8'
+            'img5 img6 img11 img8'
+            'img9 img10 img11 img13'
+            'img9 img10 img12 img13';
+            height: 100vh;
+            width: 100vh;
+            place-content: center;
+            margin-left: 300px;
+            gap: 5px;
+
+        }
+        .img1{
+            grid-area: img1;
+        }
+        .img2{
+            grid-area: img2;
+        }
+        .img3{
+            grid-area: img3;
+        }
+        .img4{
+            grid-area: img4;
+            
+        }
+        .img5{
+            grid-area: img5;
+        }
+        .img6{
+            grid-area: img6;
+        }
+        .img7{
+            grid-area: img7;
+        }
+        .img8{
+            grid-area: img8;
+        }
+        .img9{
+            grid-area: img9;
+        }
+        .img10{
+            grid-area: img10;
+        }
+        .img11{
+            grid-area: img11;
+        }
+        .img12{
+            grid-area: img12;
+        }.img13{
+            grid-area: img13;
+        }
+        .parent img{
+            height: 100%;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <img src="https://images.pexels.com/photos/326900/pexels-photo-326900.jpeg?cs=srgb&dl=wood-flight-bird-326900.jpg&fm=jpg" alt="" class="img1">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.0sxehpmvnrgWD_ho4Dr92AHaEo?pid=Api&P=0&h=180" alt="" class="img2">
+        <img src="https://wallpaper-house.com/data/out/10/wallpaper2you_436986.jpg" alt="" class="img3">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.-IxanTq1g0sEe30DldbL_QHaEo?pid=Api&P=0&h=180" alt="" class="img4">
+        <img src="https://wallpaper-house.com/data/out/10/wallpaper2you_436980.jpg" alt="" class="img5">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/000/703/214/small_2x/jay-bird.jpg" alt="" class="img6">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.o5mnsdlvNQCOa6m_YqtrMgHaFu?pid=Api&P=0&h=180" alt="" class="img7">
+        <img src="https://media.istockphoto.com/photos/european-robin-picture-id1337397720?b=1&k=20&m=1337397720&s=170667a&w=0&h=0DdKReGnoEF-g1ARbmlat7JUzykgKiBLJhCagL1T5aE=" alt="" class="img8">
+        <img src= "https://images.hindustantimes.com/img/2022/09/23/1600x900/8700a9c4-3b6c-11ed-8b5b-641320d18bc4_1663957401424.jpg" alt="" class="img9">
+        <img src="https://images.pexels.com/photos/1406506/pexels-photo-1406506.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="img10">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.cNoH9GFxzqxSJ6QQKVzekgHaEK?pid=Api&P=0&h=180" alt="" class="img11">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.Ct8gRWSHnCcLr7ozTKmePAHaIp?pid=Api&P=0&h=180" alt="" class="img12">
+        <img src="https://images.pexels.com/photos/110812/pexels-photo-110812.jpeg?cs=srgb&dl=birds-macro-branch-110812.jpg&fm=jpg" alt="" class="img13">
+    </div>
+    
+</body>
+</html>
